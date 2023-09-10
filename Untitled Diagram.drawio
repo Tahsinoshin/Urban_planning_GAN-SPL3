@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T17:00:59.877Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" version="21.1.8" etag="QGyPTSAItyu1zl6io_Ac" type="github">
-  <diagram name="Page-1" id="gw80jJKoQZnAFfHIw4Qc">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-09-10T20:49:47.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="drWEU94O9Smj4VfXjw38" version="21.7.4" type="github">
+  <diagram name="CRC" id="gw80jJKoQZnAFfHIw4Qc">
+    <mxGraphModel dx="794" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-1" value="&lt;b&gt;SolutionEvaluation&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-2" value="&lt;b&gt;Feature&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="460" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-3" value="&lt;b&gt;Context&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-4" value="&lt;b&gt;LandUseSolution&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mbI-DbpO7rVDoSqsi3Mj-2" target="mbI-DbpO7rVDoSqsi3Mj-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="463" y="119" as="sourcePoint" />
+            <mxPoint x="300" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-6" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="mbI-DbpO7rVDoSqsi3Mj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-10" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mbI-DbpO7rVDoSqsi3Mj-5">
+          <mxGeometry x="-0.0207" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-11" value="Extracted for" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mbI-DbpO7rVDoSqsi3Mj-5">
+          <mxGeometry x="-0.0085" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mbI-DbpO7rVDoSqsi3Mj-2" target="mbI-DbpO7rVDoSqsi3Mj-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-13" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="mbI-DbpO7rVDoSqsi3Mj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-14" value="Is fed to model for generating solution" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mbI-DbpO7rVDoSqsi3Mj-12">
+          <mxGeometry x="0.02" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mbI-DbpO7rVDoSqsi3Mj-4" target="mbI-DbpO7rVDoSqsi3Mj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="210" as="sourcePoint" />
+            <mxPoint x="310" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-16" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="mbI-DbpO7rVDoSqsi3Mj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-17" value="Is passed for evalauation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mbI-DbpO7rVDoSqsi3Mj-15">
+          <mxGeometry x="0.04" y="-3" relative="1" as="geometry">
+            <mxPoint x="18" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbI-DbpO7rVDoSqsi3Mj-18" value="&lt;b&gt;Fig : Class Responsibility and Collaboration Diagram&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="410" width="330" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
